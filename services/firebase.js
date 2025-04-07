@@ -16,7 +16,7 @@ import { getAuth, signInWithEmailAndPassword } from 'firebase/auth';
 // Your Firebase config
 // Replace with your actual Firebase configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyD9ppD43OeqD2UpKAa1re735X7ShQH3zzQ",
+    apiKey: process.env.REACT_APP_GOOGLE_API_KEY,
     authDomain: "productdesignstudioapp.firebaseapp.com",
     projectId: "productdesignstudioapp",
     storageBucket: "productdesignstudioapp.firebasestorage.app",
