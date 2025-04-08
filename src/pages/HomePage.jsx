@@ -1,11 +1,11 @@
 // src/pages/HomePage.jsx
 import React from 'react';
 import { useBatteryStatus } from '../hooks/useEnergyData';
-import { useUnreadNotificationsCount } from '../hooks/useNotificationData';
+import { useUnreadNotificationsCount } from '../src/hooks/useNotificationData';
 import { useVisitorData } from '../hooks/useVisitorData';
-import PageContainer from '../components/layout/PageContainer';
-import BatteryStatus from '../components/dashboard/BatteryStatus';
-import VisitorCard from '../components/dashboard/VisitorCard';
+import PageContainer from '../../components/layout/PageContainer';
+import BatteryStatus from '../../components/dashboard/BatteryStatus';
+import VisitorCard from '../../components/dashboard/VisitorCard';
 import { formatEnergy } from '../utils/statusUtils';
 
 // Placeholder image component for areas that will contain charts/graphs

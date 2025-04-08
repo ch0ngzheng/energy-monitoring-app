@@ -1,9 +1,9 @@
 import React from 'react';
 import { Zap, ArrowDownToLine, ArrowUpFromLine, DollarSign } from 'lucide-react';
 import { useGridData } from '../hooks/useEnergyData';
-import { useUnreadNotificationsCount } from '../hooks/useNotificationData';
-import PageContainer from '../components/layout/PageContainer';
-import Card from '../components/ui/Card';
+import { useUnreadNotificationsCount } from '../src/hooks/useNotificationData';
+import PageContainer from '../../components/layout/PageContainer';
+import Card from '../../components/ui/Card';
 import { formatEnergy, formatCurrency } from '../utils/statusUtils';
 
 // Placeholder image component for grid chart

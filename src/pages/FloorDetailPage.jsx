@@ -1,9 +1,9 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import { useFloorRooms } from '../hooks/useEnergyData';
-import { useUnreadNotificationsCount } from '../hooks/useNotificationData';
-import PageContainer from '../components/layout/PageContainer';
-import RoomCard from '../components/dashboard/RoomCard';
+import { useUnreadNotificationsCount } from '../src/hooks/useNotificationData';
+import PageContainer from '../../components/layout/PageContainer';
+import RoomCard from '../../components/dashboard/RoomCard';
 import { formatEnergy } from '../utils/statusUtils';
 
 // Placeholder image component for floor plan

@@ -1,7 +1,7 @@
 import React from 'react';
-import { useNotifications } from '../hooks/useNotificationData';
-import PageContainer from '../components/layout/PageContainer';
-import NotificationItem from '../components/dashboard/NotificationItem';
+import { useNotifications } from '../src/hooks/useNotificationData';
+import PageContainer from '../../components/layout/PageContainer';
+import NotificationItem from '../../components/dashboard/NotificationItem';
 import { Bell } from 'lucide-react';
 import { formatRelativeTime } from '../utils/statusUtils';
 

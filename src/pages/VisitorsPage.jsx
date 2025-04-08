@@ -1,8 +1,8 @@
 import React from 'react';
 import { useVisitorData } from '../hooks/useVisitorData';
-import { useUnreadNotificationsCount } from '../hooks/useNotificationData';
-import PageContainer from '../components/layout/PageContainer';
-import Card from '../components/ui/Card';
+import { useUnreadNotificationsCount } from '../src/hooks/useNotificationData';
+import PageContainer from '../../components/layout/PageContainer';
+import Card from '../../components/ui/Card';
 import { Users } from 'lucide-react';
 
 const VisitorsPage = () => {

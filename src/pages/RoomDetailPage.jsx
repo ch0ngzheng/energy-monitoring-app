@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { useRoomData } from '../hooks/useEnergyData';
-import { useUnreadNotificationsCount } from '../hooks/useNotificationData';
-import PageContainer from '../components/layout/PageContainer';
-import Card from '../components/ui/Card';
+import { useUnreadNotificationsCount } from '../src/hooks/useNotificationData';
+import PageContainer from '../../components/layout/PageContainer';
+import Card from '../../components/ui/Card';
 import { formatEnergy } from '../utils/statusUtils';
 
 // Placeholder image components

@@ -1,8 +1,8 @@
 import React from 'react';
 import { useFloorsData } from '../hooks/useEnergyData';
-import { useUnreadNotificationsCount } from '../hooks/useNotificationData';
-import PageContainer from '../components/layout/PageContainer';
-import FloorCard from '../components/dashboard/FloorCard';
+import { useUnreadNotificationsCount } from '../src/hooks/useNotificationData';
+import PageContainer from '../../components/layout/PageContainer';
+import FloorCard from '../../components/dashboard/FloorCard';
 import { formatEnergy } from '../utils/statusUtils';
 
 const FloorsPage = () => {
